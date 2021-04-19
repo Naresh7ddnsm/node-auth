@@ -1,0 +1,24 @@
+POST http://localhost:5000/api/auth/register
+content-type: application/json
+
+{
+    "username": "Naresh",
+    "email": "naresh.dn@gmail.com",
+    "password": "bsb_12345"
+}
+
+
+###
+POST http://localhost:5000/api/auth/login
+content-type: application/json
+
+{
+    "email": "naresh.dn@gmail.com",
+    "password": "bsb_12345"
+}
+
+
+
+###
+
+PUT http://localhost:5000/api/auth/resetpassword/123456
